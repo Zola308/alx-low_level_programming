@@ -6,13 +6,13 @@
  */
 
 #include "main.h"
-void print_alphabet(void)
+void print_alphabet(void);
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char low;
+for (low = 'a'; low <= 'z'; ch++);
 {      
-_putchar(ch);
+putchar(low);
 }  
-_putchar('\n');
+putchar('\n');
 return;
 }
