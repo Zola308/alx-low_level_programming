@@ -20,7 +20,7 @@ while (fn < 4000000)
 if (fn % 2 == 0)
 {
 n = n + fn;
-}  
+}
 fn = num1 + num2;
 num1 = num2;
 num2 = fn;
