@@ -1,24 +1,14 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- *  * reset_to_98 - a function that takes an integer and update to 98.
- *
- *   *
- *
- *    * @n: input integer.
- *
- *     *
- *
- *      * Return: Always void.
- *
- *       *
- *
- *        * Description: change the integer to 98.
- *
+ * reset_to_98 - a pointer that reassigns a value
+ * @n: The pointer
+ * Return: no return
  */
 
 void reset_to_98(int *n)
 {
-
 *n = 98;
 }
+
